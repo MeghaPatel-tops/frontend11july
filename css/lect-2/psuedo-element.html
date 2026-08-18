@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* pseudo element */
+        .first::first-letter{
+            font-size: 3em;
+            color: red;
+        }
+        .first::first-line{
+            color: green;
+        }
+        h1::after{
+            content: '★';
+        }
+        h1::before{
+            content: '★';
+        }
+
+        .first::selection{
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to app</h1>
+    <p class="first">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Illo, nisi qui doloremque repellat hic placeat porro magni dicta est numquam neque quia iusto harum, et dolores incidunt laboriosam illum dolor!</p>
+</body>
+</html>
