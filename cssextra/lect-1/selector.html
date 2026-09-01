@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        p{
+            color: aqua;
+        }
+        #first{
+            color: blue;
+        }
+        .sec{
+            color: brown;
+        }
+        div>p{
+            color: white;
+            background-color: black;
+        }
+        th,td{
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Css Selector</h1>
+    <h2>Universal selector(*)</h2>
+    <code>*{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }</code>
+    <h2>html element selector(p,h1,span)</h2>
+     <p>Welcome to app</p>
+    <code>
+         p{
+            color: aqua;
+        }
+    </code>
+   <h2>Id Selector(#)</h2>
+    <p id="first">Welcome to app</p>
+    <code>#first{
+            color: blue;
+        }</code>
+    <h2 >class selector(.)</h2>
+    <p class="sec">Welcome to app</p>
+    <code>
+          .sec{
+            color: brown;
+        }
+    </code>
+    <h2>Descendent css(div>p)</h2>
+    <div>
+         <p>Welcome to app</p>
+    </div>
+    <code> div>p{
+            color: white;
+            background-color: black;
+        }</code>
+
+        <table>
+            <tr>
+                <th>Heading-1</th>
+                <th>Heading-2</th>
+                <th>Heading-3</th>
+                <th>Heading-4</th>
+            </tr>
+            <tr>
+                <td>Table-data-1</td>
+                <td>Table-data-2</td>
+                <td>Table-data-3</td>
+                <td>Table-data-4</td>
+            </tr>
+            <tr>
+                <td>Table-data-1</td>
+                <td>Table-data-2</td>
+                <td>Table-data-3</td>
+                <td>Table-data-4</td>
+            </tr>
+            <tr>
+                <td>Table-data-1</td>
+                <td>Table-data-2</td>
+                <td>Table-data-3</td>
+                <td>Table-data-4</td>
+            </tr>
+            <tr>
+                <td>Table-data-1</td>
+                <td>Table-data-2</td>
+                <td>Table-data-3</td>
+                <td>Table-data-4</td>
+            </tr>
+            <tr>
+                <td>Table-data-1</td>
+                <td>Table-data-2</td>
+                <td>Table-data-3</td>
+                <td>Table-data-4</td>
+            </tr>
+        </table>
+</body>
+</html>
