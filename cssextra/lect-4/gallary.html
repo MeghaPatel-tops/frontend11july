@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+             padding: 200px;
+        }
+        .main{
+              height: 250px;
+             
+              display: flex;
+              margin: 10px;
+              gap: 20px;
+              align-items: start;
+        }
+        .col{
+            height: 200px;
+            width: 200px;
+            border: 10px solid black;
+            border-radius: 20px;
+        }
+        #col-2{
+            align-self: flex-end;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+             
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="main">
+        <div class="col" id="col-1">
+            <img src="../lect-2/OIP.jpeg" alt="">
+        </div>
+        <div class="col" id="col-2">2</div>
+    </div>
+    <div class="main">
+        <div class="col" id="col-1">1</div>
+        <div class="col" id="col-2">2</div>
+    </div>
+</body>
+</html>
