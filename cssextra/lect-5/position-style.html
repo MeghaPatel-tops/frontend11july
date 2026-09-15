@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            position: relative;
+            top:100px;
+            background-color: aqua;
+            /* padding: 50px; */
+            height: 300px;
+            z-index: -1;
+        }
+        .inner{
+            position: absolute;
+            left:0;
+            top: 50%;
+            height: 50px;
+            width: 100px;
+            background-color: orange;
+        }
+        .header{
+            padding: 50px 0px;
+            background-color: brown;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+        .fixed{
+            height: 200px;
+            width: 200px;
+            /* background-color: blueviolet; */
+            border: 10px solid black;
+            position: fixed;
+            top: 200px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">header</div>
+  <div class="fixed">Fixed</div>
+    <div class="main">
+        <!--     -->
+        <div class="inner">
+            Abosolute
+        </div>
+    </div>
+    <h1>welcome to appp</h1>
+      <div class="main">
+        <!--     -->
+        <div class="inner">
+            Abosolute
+        </div>
+    </div>
+      <div class="main">
+        <!--     -->
+        <div class="inner">
+            Abosolute
+        </div>
+    </div>
+      <div class="main">
+        <!--     -->
+        <div class="inner">
+            Abosolute
+        </div>
+    </div>
+  
+</body>
+</html>

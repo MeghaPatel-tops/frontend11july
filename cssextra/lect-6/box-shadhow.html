@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(118, 118, 156);
+            position: relative;
+        }
+        .box{
+            padding: 20px;
+            background-color: transparent;
+            border: 1px solid white;
+            border-radius: 20px;
+            box-shadow: 3px 3px  5px white;
+            position: absolute;
+            z-index: 1;
+            transform: rotate(15deg);
+        }
+        .form-row{
+            padding: 10px 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        input,button{
+            padding: 5px 10px;
+            border-radius: 20px;
+            border: none;
+            box-shadow: 3px 3px 3px black;
+        }
+        .box2{
+            position: absolute;
+            background-color: skyblue;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="box2">
+      
+    </div>
+    <div class="box">
+       <h1>Login form1</h1>
+       <div class="form-row">
+          <label for="">Enter Username</label>
+          <input type="text" name="" id="">
+       </div>
+       <div class="form-row">
+          <label for="">Enter Password</label>
+          <input type="password" name="" id="">
+       </div>
+       <div class="form-row">
+          
+         <button>Login</button>
+       </div>
+    </div>
+</body>
+</html>

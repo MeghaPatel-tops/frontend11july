@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            text-align: center;
+            display: grid;
+            grid-template-areas: "header header header header"
+                                 "aside section section section"
+                                 "aside article article article"
+                                 "footer footer footer footer";
+        }
+        header{
+            height: 50px;
+            background-color: aqua;
+            grid-area: header;
+        }
+        aside{
+            height: 400px;
+            background-color: aquamarine;
+            grid-area: aside;
+        }
+        section{
+            height: 200px;
+            background-color: orangered;
+            grid-area: section;
+        }
+        article{
+             height: 200px;
+            background-color: yellow;
+            grid-area: article;
+        }
+         footer{
+            height: 50px;
+            background-color: aqua;
+            grid-area: footer;
+        }
+        
+        nav ul{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        li{
+            list-style: none;
+            font-size: 1em;
+            font-weight: bolder;
+        }
+
+    </style>
+</head>
+<body>
+   <div class="main"->
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <aside>Asidebar</aside>
+        <section>Section</section>
+        <article>Artical</article>
+        <footer>Footer</footer>
+   </div>
+</body>
+</html>
