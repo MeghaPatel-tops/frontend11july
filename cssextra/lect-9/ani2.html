@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            transform:  rotateY(180deg);
+            animation-name: carmove;
+            animation-delay: 2s;
+            animation-duration: 3s;
+            /* animation-direction: alternate;*/
+             animation-iteration-count: 2; 
+            animation-timing-function: ease;
+            
+        }
+
+        @keyframes carmove {
+            0%{
+                transform: translate(0px,0px)  rotateY(180deg);
+            }
+            25%{
+                transform: translate(1200px,0px)  rotateY(180deg);
+            }
+            50%{
+                transform: translate(1200px,0px)  rotateY(0deg);
+            }
+            100%{
+                transform: translate(0px,0px)  rotateY(0deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="OIP.jpeg" alt="">
+</body>
+</html>

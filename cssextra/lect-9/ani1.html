@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 400px;
+            width: 400px;
+            background-color: red;
+            animation-name:backChanger ;
+            animation-delay: 3s;
+            animation-duration: 4s;
+            animation-iteration-count:2;
+        }
+
+        @keyframes backChanger {
+            0%{
+                background-color: blue;
+            }
+            100%{
+                background-color: green;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main"></div>
+</body>
+</html>
